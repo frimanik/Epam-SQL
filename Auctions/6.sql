@@ -1,0 +1,1 @@
+select items.title, max(bids.bid_value) from items, bids where items.item_id = bids.items_item_id group by items.title

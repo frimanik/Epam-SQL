@@ -1,0 +1,1 @@
+select users.full_name, items.title from users, items where users.user_id = items.users_user_id and items.by_it_now = 1 and items.users_user_id = 3

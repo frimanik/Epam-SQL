@@ -1,0 +1,2 @@
+INSERT INTO `mydb2`.`items` (`item_id`, `title`, `descriptions`, `start_price`, `bid_increment`, `start_date`, `stop_date`, `by_it_now`, `users_user_id`) VALUES (6, 'cat', 'animal', 10, 5, '2019-01-10', '2019-02-01', 1, 5);
+select * from items

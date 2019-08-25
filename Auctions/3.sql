@@ -1,0 +1,1 @@
+select items.title from items where  items.title like '%o%'

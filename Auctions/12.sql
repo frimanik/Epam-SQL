@@ -1,0 +1,2 @@
+update items set items.start_price = items.start_price*2.0 where items.users_user_id = 5;
+select users.full_name, items.title, items.start_price from users, items where items.users_user_id = users.user_id

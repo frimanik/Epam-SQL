@@ -1,0 +1,1 @@
+select users.full_name, avg(items.start_price) as AvgPrice from users, items where users.user_id = items.users_user_id group by users.full_name

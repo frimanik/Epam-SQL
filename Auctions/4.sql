@@ -1,0 +1,1 @@
+select items.title, items.descriptions from items where  items.descriptions like '%car%'

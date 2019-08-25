@@ -1,0 +1,1 @@
+select student.name, count(*) as CountMarks from student, marks where student.student_id = marks.student_id group by student.name

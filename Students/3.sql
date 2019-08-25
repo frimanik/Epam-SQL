@@ -1,0 +1,1 @@
+select student.name, marks.subject, marks.mark from student, marks where student.student_id = marks.student_id and marks.subject = 'Java'

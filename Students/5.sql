@@ -1,0 +1,1 @@
+select marks.subject, avg(marks.mark) as AvgMarks from marks group by marks.subject

@@ -1,0 +1,1 @@
+select users.full_name, bids.bid_id, bids.bid_value, items.title from users, bids, items where users.user_id = bids.users_user_id and bids.items_item_id = items.item_id

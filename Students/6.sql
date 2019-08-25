@@ -1,0 +1,1 @@
+select  student.groupe ,marks.subject, avg(marks.mark) as AvgMarks from student, marks where student.student_id = marks.student_id and marks.subject = 'Java' group by student.groupe

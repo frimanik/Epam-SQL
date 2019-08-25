@@ -1,0 +1,1 @@
+select users.full_name, items.title from users, items where  items.users_user_id = 1 and items.users_user_id = users.user_id 
